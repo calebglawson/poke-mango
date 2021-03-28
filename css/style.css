@@ -55,13 +55,6 @@ button {
 	width: 300px;
 }
 
-.header {
-	border-bottom: 1px solid lightgray;
-	font-size: 30px;
-	text-align: center;
-	margin-bottom: 20px;
-}
-
 @media all and (max-width: 800px) {
 	#poker {
 		left: 0;
