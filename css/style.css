@@ -12,15 +12,15 @@ button {
 	text-decoration: none;
 }
 
-#mango {
-	width: 300px;
+#info {
+	filter: invert(100%);
 }
 
 #pokecount {
 	font-family: 'Black Ops One', cursive;
-	font-size: 4rem;
+	font-size: 4em;
 	position: fixed;
-	right: 1.5rem;
+	right: 1.5em;
 	word-wrap: break-word;
 }
 
@@ -28,15 +28,14 @@ button {
 	left: -330px;
 	position: relative;
 	top: -150px;
-	width: 300px;
 }
 
 #textbanner {
 	font-family: 'Press Start 2P', cursive;
-	font-size: 2rem;
+	font-size: 2em;
 	left: 50%;
 	margin-left: -200px;
-	margin-top: -2rem;
+	margin-top: -2em;
 	pointer-events: none;
 	position: fixed;
 	text-align: center;
@@ -65,8 +64,8 @@ button {
 
 @media all and (max-width: 400px) {
 	#pokecount {
-		font-size: 2.5rem;
-		right: 0.5rem;
+		font-size: 2.5em;
+		right: 0.5em;
 	}
 	#poker {
 		left: 0;
@@ -74,7 +73,7 @@ button {
 		transform: rotate(-90deg);
 	}
 	#textbanner {
-		font-size: 1.5rem;
-		margin-top: -1.5rem;
+		font-size: 1.5em;
+		margin-top: -1.5em;
 	}
 }
